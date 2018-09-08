@@ -19,6 +19,7 @@
         "laravel/tinker": "^1.0",
         "spatie/laravel-html": "^2.4",
         "spatie/laravel-permission": "^2.5",
+        "swooletw/laravel-swoole": "^2.5",
         "webpatser/laravel-uuid": "^3.0"
     },
     "require-dev": {
