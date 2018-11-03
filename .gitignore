@@ -27,3 +27,6 @@ output.txt
 .php_cs.cache
 coverage.xml
 /coverage
+debug
+composer.lock
+package-lock.json

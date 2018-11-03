@@ -225,6 +225,11 @@ return [
 
         /*
          * Package Aliases
+         *
+         * 当用户在引用任何在 Cache 这个 Facade 上的静态方法的时候，Laravel 就会从 Ioc 服务容器 里面去 resolves cache 这个绑定，
+         * 并且会去执行在对象上的这个所请求的方法（这里就是 get 这个方法）。
+         * 所以，我们在调用 Cache::get 的时候，它的真正的意思是这样的：
+         * $value = $app->make('cache')->get('key');
          */
         'Active' => HieuLe\Active\Facades\Active::class,
         'Gravatar' => Creativeorange\Gravatar\Facades\Gravatar::class,

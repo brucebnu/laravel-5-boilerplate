@@ -20,11 +20,17 @@
         "spatie/laravel-html": "^2.4",
         "spatie/laravel-permission": "^2.5",
         "swooletw/laravel-swoole": "^2.5",
-        "webpatser/laravel-uuid": "^3.0"
+        "webpatser/laravel-uuid": "^3.0",
+        "tymon/jwt-auth": "1.0.0-rc.1",
+        "zircote/swagger-php": "2.*",
+        "maatwebsite/excel": "^3.0",
+        "darkaonline/l5-swagger": "5.5.*",
+        "jenssegers/agent": "^2.6",
+        "kalnoy/nestedset": "^4.3"
     },
     "require-dev": {
         "barryvdh/laravel-debugbar": "^3.0",
-        "barryvdh/laravel-ide-helper": "^2.4",
+        "barryvdh/laravel-ide-helper": "^2.5",
         "codedungeon/phpunit-result-printer": "^0.19.10",
         "filp/whoops": "^2.0",
         "friendsofphp/php-cs-fixer": "^2.10",
