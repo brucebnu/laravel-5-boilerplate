@@ -21,7 +21,7 @@
         "spatie/laravel-permission": "^2.5",
         "swooletw/laravel-swoole": "^2.5",
         "webpatser/laravel-uuid": "^3.0",
-        "tymon/jwt-auth": "1.0.0-rc.1",
+        "tymon/jwt-auth": "1.0.0-rc.2",
         "zircote/swagger-php": "2.*",
         "maatwebsite/excel": "^3.0",
         "darkaonline/l5-swagger": "5.5.*",
